@@ -9,3 +9,6 @@ https://asciinema.org/a/zewohwyQosRPQySkfOeIjJPvO
 
 brain-calc:
 https://asciinema.org/a/408117
+
+brain-gcd:
+https://asciinema.org/a/409488
