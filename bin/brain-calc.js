@@ -13,9 +13,9 @@ const displayResultOfQuestions = () => {
     return 1;
   };
   shuffleOperators();
-  const arr = ['+', '-', '*'];
-  const randomArr = arr.sort(shuffleOperators);
-  if (arr[0] === randomArr[0]) {
+  const arrSigns = ['+', '-', '*'];
+  const randomArr = arrSigns.sort(shuffleOperators);
+  if (arrSigns[0] === randomArr[0]) {
     const randomNum1 = Math.floor(Math.random() * 51);
     const randomNum2 = Math.floor(Math.random() * 51);
     const randomResultFirst = eval(`${randomNum1} ${randomArr[0]} ${randomNum2}`);
@@ -27,7 +27,7 @@ const displayResultOfQuestions = () => {
       return console.log(`'${acceptAnswer1}' is wrong answer ;(. Correct answer was '${randomResultFirst}'.\nLet's try again, ${name}`);
     }
   }
-  if (arr[1] === randomArr[1]) {
+  if (arrSigns[1] === randomArr[1]) {
     const randomNum1 = Math.floor(Math.random() * 51);
     const randomNum2 = Math.floor(Math.random() * 51);
     const randomResultSecond = eval(`${randomNum1} ${randomArr[1]} ${randomNum2}`);
@@ -39,7 +39,7 @@ const displayResultOfQuestions = () => {
       return console.log(`'${acceptAnswer2}' is wrong answer ;(. Correct answer was '${randomResultSecond}'.\nLet's try again, ${name}`);
     }
   }
-  if (arr[2] === randomArr[2]) {
+  if (arrSigns[2] === randomArr[2]) {
     const randomNum1 = Math.floor(Math.random() * 51);
     const randomNum2 = Math.floor(Math.random() * 51);
     const randomResultThird = eval(`${randomNum1} ${randomArr[2]} ${randomNum2}`);
