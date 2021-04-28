@@ -6,15 +6,15 @@ import name from '../src/cli.js';
 console.log(`Hello! ${name}`);
 console.log('What is the result of the expression?');
 const displayResultOfQuestions = () => {
-  const shuffleOperators = () => {
+  const getShuffleOperators = () => {
     if (Math.random() > 0.5) {
       return -1;
     }
     return 1;
   };
-  shuffleOperators();
+  getShuffleOperators();
   const arrSigns = ['+', '-', '*'];
-  const randomArr = arrSigns.sort(shuffleOperators);
+  const randomArr = arrSigns.sort(getShuffleOperators);
   if (arrSigns[0] === randomArr[0]) {
     const randomNum1 = Math.floor(Math.random() * 51);
     const randomNum2 = Math.floor(Math.random() * 51);
