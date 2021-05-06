@@ -1,9 +1,10 @@
 import playBrainGames from '../index.js';
+import getRandomNumber from '../random.js';
 
 const rulesGames = 'Answer "yes" if the number is even, otherwise answer "no".';
-const randomNum = Math.floor(Math.random() * 51);
 const isEven = (num) => num % 2 === 0;
 const getPlay = () => {
+  const randomNum = getRandomNumber(1, 100);
   const question = randomNum;
   const correctAnswer = isEven(question) ? 'yes' : 'no';
   return [question, correctAnswer];
