@@ -21,7 +21,6 @@ const getPlay = () => {
   arr.splice(randomLocationSign, 1, '..');
   const arrayProgression = arr.join(' ');
   const correctValue = firstNumArray + randomLocationSign * stepNumArray;
-  // isProgression(firstNumArray, stepNumArray);
   const question = arrayProgression;
   const correctAnswer = String(correctValue);
   return [question, correctAnswer];
