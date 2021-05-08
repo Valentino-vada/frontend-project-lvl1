@@ -15,8 +15,8 @@
   "bugs": {
     "url": "https://github.com/Valentino-vada/frontend-project-lvl1/issues"
   },
-  "homepage": "https://github.com/Valentino-vada/frontend-project-lvl1#readme",
-  "type": "module",
+  "homepage": "https://github.com/Valentino-vada/frontend-project-lvl1#readme"
+  ,
   "bin": {
     "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-even.js",
