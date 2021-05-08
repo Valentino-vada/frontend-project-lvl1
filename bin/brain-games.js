@@ -1,4 +1,5 @@
 #!/usr/bin/env node
-import greetingAndAnswer from '../src/cli.js';
 
-greetingAndAnswer();
+import gameBrain from '../src/cli.js';
+
+gameBrain();
