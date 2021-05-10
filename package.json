@@ -26,7 +26,6 @@
     "brain-progression": "bin/brain-progression.js"
   },
   "dependencies": {
-    "frontend-project-lvl1": "^1.4.0",
     "lodash": "^4.17.21",
     "readline-sync": "^1.4.10"
   },
