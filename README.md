@@ -6,7 +6,7 @@
 
 ![linting](https://github.com/Valentino-vada/frontend-project-lvl1/workflows/linting/badge.svg)
 
-brain-even:
+brain-even: 
 https://asciinema.org/a/zewohwyQosRPQySkfOeIjJPvO
 
 brain-calc:
