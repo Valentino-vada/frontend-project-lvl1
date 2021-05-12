@@ -6,17 +6,20 @@
 
 ![linting](https://github.com/Valentino-vada/frontend-project-lvl1/workflows/linting/badge.svg)
 
-brain-even: 
-https://asciinema.org/a/zewohwyQosRPQySkfOeIjJPvO
+"Mind Games"- console games on JavaScript.
+Designed for uncomplicated mental performance.
 
-brain-calc:
+game brain-even: 
+https://asciinema.org/a/413678
+
+game brain-calc:
 https://asciinema.org/a/408117
 
-brain-gcd:
+game brain-gcd:
 https://asciinema.org/a/409488
 
-brain-progression:
+game brain-progression:
 https://asciinema.org/a/410329
 
-brain-prime:
+game brain-prime:
 https://asciinema.org/a/410535
