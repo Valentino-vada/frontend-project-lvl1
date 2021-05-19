@@ -9,7 +9,7 @@
 "Mind Games"- console games on JavaScript.
 Designed for uncomplicated mental performance.
 
-game brain-even: 
+game brain-even:
 https://asciinema.org/a/413678
 
 game brain-calc:
